@@ -17,7 +17,9 @@
     <title>Song & Film</title>
   </head>
   <body>
-    <header class="d-flex justify-content-around align-items-center position-relative mt-4 mb-4">
+    <header
+      class="d-flex justify-content-around align-items-center position-relative mt-4 mb-4"
+    >
       <section class="nav-container">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
@@ -33,7 +35,7 @@
             </div>
 
             <div class="prueba1 collapse navbar-collapse" id="navbarNav">
-              <ul class="prueba2 navbar-nav">
+              <ul class="prueba2 navbar-nav px-4 bg-body">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#"
                     >Home</a
@@ -60,7 +62,7 @@
         </nav>
       </section>
       <section class="container p-0">
-        <div class="row">
+        <div class="row mx-0">
           <div class="col-2 offset-1">
             <i class="fab fa-facebook-f"></i>
           </div>
@@ -87,7 +89,7 @@
           <article class="text-animation position-relative">
             <aside class="content">
               <div class="content__container">
-                <ul class="content__container__list">
+                <ul class="content__container__list p-0 text-center">
                   <li class="content__container__list__item">Love</li>
                   <li class="content__container__list__item">Believe</li>
                   <li class="content__container__list__item">Music</li>
@@ -126,7 +128,7 @@
                   />
                 </div>
               </div>
-              <div class="col-12 col-lg-6 mb-3">
+              <div class="col-12 col-lg-6 mb-3 d-none d-md-block">
                 <div class="shadow-lg bg-body rounded">
                   <img
                     src="https://picsum.photos/id/598/600/400"
@@ -135,7 +137,7 @@
                   />
                 </div>
               </div>
-              <div class="col-12 col-lg-6 mb-3">
+              <div class="col-12 col-lg-6 mb-3 d-none d-lg-block">
                 <div class="shadow-lg bg-body rounded">
                   <img
                     src="https://picsum.photos/id/598/600/400"
@@ -144,7 +146,7 @@
                   />
                 </div>
               </div>
-              <div class="col-12 col-lg-6 mb-3">
+              <div class="col-12 col-lg-6 mb-3 d-none d-lg-block">
                 <div class="shadow-lg bg-body rounded">
                   <img
                     src="https://picsum.photos/id/598/600/400"
@@ -157,50 +159,52 @@
           </article>
         </div>
       </section>
-      <section class="comments-container container my-4 text-center">
-        <h2 class="commet-tittle text-uppercase">
-          What Our Clients Are Saying
-        </h2>
-        <article class="row text-center">
-          <div class="comment-container col-12 col-lg-4">
-            <aside class="star-container">
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-            </aside>
-            <p class="comment-description">
-              “These guys are on my speed dial!”
-            </p>
-            <h5 class="user">Alex Hill</h5>
-            <p class="user-description">Love Actually, The Interpreter</p>
-          </div>
-          <div class="comment-container col-12 col-lg-4">
-            <aside class="star-container">
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-            </aside>
-            <p class="comment-description">“We love your catalog!”</p>
-            <h5 class="user">Mark Lo</h5>
-            <p class="user-description">Railway Man, Belle</p>
-          </div>
-          <div class="comment-container col-12 col-lg-4">
-            <aside class="star-container">
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-            </aside>
-            <p class="comment-description">“Great music and respond fast!”</p>
-            <h5 class="user">Lynn Fainchtein</h5>
-            <p class="user-description">The Revenant, Birdman</p>
-          </div>
-        </article>
+      <section class="comments-container my-4 text-center">
+        <div class="comments-content w-100 h-100">
+          <h2 class="commet-tittle text-uppercase">
+            What Our Clients Are Saying
+          </h2>
+          <article class="row text-center">
+            <div class="comment-container col-12 col-lg-4">
+              <aside class="star-container">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </aside>
+              <p class="comment-description">
+                “These guys are on my speed dial!”
+              </p>
+              <h5 class="user">Alex Hill</h5>
+              <p class="user-description">Love Actually, The Interpreter</p>
+            </div>
+            <div class="comment-container col-12 col-lg-4">
+              <aside class="star-container">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </aside>
+              <p class="comment-description">“We love your catalog!”</p>
+              <h5 class="user">Mark Lo</h5>
+              <p class="user-description">Railway Man, Belle</p>
+            </div>
+            <div class="comment-container col-12 col-lg-4">
+              <aside class="star-container">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </aside>
+              <p class="comment-description">“Great music and respond fast!”</p>
+              <h5 class="user">Lynn Fainchtein</h5>
+              <p class="user-description">The Revenant, Birdman</p>
+            </div>
+          </article>
+        </div>
       </section>
       <section class="client-container container mt-4 mb-4 text-center">
         <artcile class="client-text-container">

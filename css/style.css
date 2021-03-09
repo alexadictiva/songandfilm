@@ -3,8 +3,10 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  border: red 1px solid !important;
 }
 body {
+  font-size: 62.5%;
   overflow-x: hidden;
 }
 
@@ -66,7 +68,7 @@ header {
   }
 }
 /*End Banner Animation*/
-/*Start First Animation*/
+/*Start Second Animation*/
 
 .content {
   position: absolute;
@@ -253,7 +255,22 @@ header {
   }
 }
 
-/*End First Animation*/
+/*End Second Animation*/
+
+.text-blue,
+.fa-star {
+  color: rgb(102, 200, 218);
+}
+.comments-container {
+  background-image: url("../assets/img/img-banner1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.comments-content {
+  background-color: rgba(37, 40, 43, 0.6);
+}
 .rrss i {
   width: 35px;
   height: 35px;
