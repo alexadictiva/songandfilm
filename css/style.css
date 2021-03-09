@@ -12,3 +12,25 @@ body {
 .nav-container {
   padding-left: 25%;
 }
+
+/*Main*/
+
+.rrss i {
+  width: 35px;
+  height: 35px;
+}
+.fab {
+  line-height: revert;
+}
+.prueba1 {
+  position: relative;
+}
+.prueba2 {
+  position: absolute;
+}
+@media (min-width: 992px) {
+  .prueba1,
+  .prueba2 {
+    position: static;
+  }
+}
