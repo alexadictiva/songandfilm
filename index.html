@@ -17,7 +17,7 @@
     <title>Song & Film</title>
   </head>
   <body>
-    <header class="d-flex justify-content-around align-items-center mt-4 mb-4">
+    <header class="d-flex justify-content-around align-items-center position-relative mt-4 mb-4">
       <section class="nav-container">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
@@ -74,25 +74,29 @@
       </section>
     </header>
     <main class="container">
-      <section class="banner-container text-center mb-4 py-4">
-        <article class="img-container mb-4 p-4">
-          <img src="assets/img/logo.png" alt="Logo" class="img-fluid" />
-        </article>
-        <article class="slogan-container pb-2 mb-2">
-          <h2 class="slogan">Music for TV & Film</h2>
-        </article>
-        <article class="position-relative">
-          <aside class="content">
-            <div class="content__container">
-              <ul class="content__container__list">
-                <li class="content__container__list__item">Love</li>
-                <li class="content__container__list__item">Believe</li>
-                <li class="content__container__list__item">Music</li>
-                <li class="content__container__list__item">Film</li>
-              </ul>
-            </div>
-          </aside>
-        </article>
+      <section class="banner-container text-center position-relative mb-4">
+        <div
+          class="banner-content d-flex flex-column justify-content-center align-items-center"
+        >
+          <article class="img-container pb-4">
+            <img src="assets/img/logo.png" alt="Logo" class="img-fluid" />
+          </article>
+          <article class="slogan-container pb-2 mb-2">
+            <h2 class="slogan">Music for TV & Film</h2>
+          </article>
+          <article class="text-animation position-relative">
+            <aside class="content">
+              <div class="content__container">
+                <ul class="content__container__list">
+                  <li class="content__container__list__item">Love</li>
+                  <li class="content__container__list__item">Believe</li>
+                  <li class="content__container__list__item">Music</li>
+                  <li class="content__container__list__item">Film</li>
+                </ul>
+              </div>
+            </aside>
+          </article>
+        </div>
       </section>
       <section class="outstanding-container container py-4 border-top">
         <div class="row">

@@ -9,11 +9,63 @@ body {
 }
 
 /*Header*/
+header {
+  z-index: 10;
+}
 .nav-container {
   padding-left: 25%;
 }
 
 /*Main*/
+/*Start Banner Animation*/
+.banner-container {
+  background-image: url("../assets/img/img-banner1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(70vh - 50px);
+  transition: all 0.1s ease-in-out;
+  animation: banner 28s infinite linear;
+}
+.banner-content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(37, 40, 43, 0.6);
+}
+.slogan-container {
+  color: white;
+}
+.content__container__list__item {
+  color: rgb(102, 200, 218);
+}
+
+@keyframes banner {
+  0% {
+    background-image: url("../assets/img/img-banner1.jpg");
+  }
+  25% {
+    background-image: url("../assets/img/img-banner1.jpg");
+  }
+  26% {
+    background-image: url("../assets/img/img-banner2.jpg");
+  }
+  50% {
+    background-image: url("../assets/img/img-banner2.jpg");
+  }
+  51% {
+    background-image: url("../assets/img/img-banner3.jpg");
+  }
+  75% {
+    background-image: url("../assets/img/img-banner3.jpg");
+  }
+  76% {
+    background-image: url("../assets/img/img-banner4.jpg");
+  }
+  100% {
+    background-image: url("../assets/img/img-banner4.jpg");
+  }
+}
+/*End Banner Animation*/
 /*Start First Animation*/
 
 .content {
@@ -34,29 +86,7 @@ body {
   height: 40px;
   padding: 0 40px;
 }
-/* .content__container:before {
-  content: "[";
-  left: 0;
-}
-.content__container:after {
-  content: "]";
-  position: absolute;
-  right: 0;
-}
-.content__container:after,
-.content__container:before {
-  position: absolute;
-  top: 0;
-  color: #16a085;
-  font-size: 42px;
-  line-height: 40px;
-  -webkit-animation-name: opacity;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-  animation-name: opacity;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-} */
+
 .content__container__text {
   display: inline;
   float: left;
@@ -64,14 +94,14 @@ body {
 }
 .content__container__list {
   margin-top: 0;
-  /* padding-left: 110px; */
+
   text-align: left;
   list-style: none;
   -webkit-animation-name: change;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 15s;
   -webkit-animation-iteration-count: infinite;
   animation-name: change;
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
 }
 .content__container__list__item {
