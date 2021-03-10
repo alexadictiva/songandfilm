@@ -80,7 +80,6 @@ header {
   font-family: "Lato", sans-serif;
   font-size: 35px;
   line-height: 40px;
-  /* color: #ecf0f1; */
 }
 .content__container {
   font-weight: 600;
@@ -285,36 +284,27 @@ header {
   position: absolute;
 }
 .accion-content {
-  background-color: rgb(102, 200, 218);
   color: white;
 }
 .accion-container {
-  position:relative;
+  height: 70vh;
   border-left: 50vw solid rgb(102, 200, 218);
   border-right: 50vw solid rgb(102, 200, 218);
   border-top: 20vw solid transparent;
-  border-bottom: 20vw solid transparent;
+  border-bottom: 20vw solid rgb(55, 52, 52);
 }
-.accion-content{
-  position:absolute;
-  width:100vw;
-  margin-left:-50vw;
+.accion-content {
+  width: 100vw;
+  margin-left: -50vw;
 }
 
 footer {
   background-color: rgb(55, 52, 52);
   color: white;
-  /* margin-top: -48px; */
-  padding-top: 70px;
-  margin-top: -50px;
 }
-/* .footer-content::before {
-  content: "";
-  border-left: 50vw solid transparent;
-  border-right: 50vw solid transparent;
-  border-top: 0 solid transparent;
-  border-bottom: 10vw solid rgb(55, 52, 52);
-} */
+footer > article > div {
+  flex-direction: column;
+}
 @media (min-width: 992px) {
   .prueba1,
   .prueba2 {
@@ -323,7 +313,10 @@ footer {
   .comments-container {
     height: 500px;
   }
-   footer {
-    padding-top: 80px;
+  .accion-container {
+    height: 60vh;
+  }
+  footer > article > div {
+    flex-direction: row;
   }
 }
