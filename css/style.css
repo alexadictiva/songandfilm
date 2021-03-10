@@ -20,6 +20,7 @@ header {
 
 /*Main*/
 /*Start Banner Animation*/
+
 .banner-container {
   background-image: url("../assets/img/img-banner1.jpg");
   background-position: center;
@@ -255,7 +256,12 @@ header {
 }
 
 /*End Second Animation*/
-
+.outstanding-container {
+  border-left: 80vw solid white;
+  border-right: 20vw solid white;
+  border-top: 20vw solid red;
+  border-bottom: 2vw solid transparent;
+}
 .text-blue,
 .fa-star {
   color: rgb(102, 200, 218);
@@ -286,6 +292,10 @@ header {
 .accion-content {
   color: white;
 }
+.outstanding-container {
+  height: 130vh;
+}
+
 .accion-container {
   height: 70vh;
   border-left: 50vw solid rgb(102, 200, 218);
@@ -294,6 +304,11 @@ header {
   border-bottom: 20vw solid rgb(55, 52, 52);
   margin-bottom: -3px;
 }
+.outstanding-content {
+  width: 100vw;
+  margin-left: -80vw;
+}
+
 .accion-content {
   width: 100vw;
   margin-left: -50vw;
@@ -306,10 +321,30 @@ footer {
 footer > article > div {
   flex-direction: column;
 }
+
+@media (min-width: 375px) {
+  .outstanding-container {
+    height: 115vh;
+  }
+}
+@media (min-width: 375px) and (height: 812px) {
+  .outstanding-container {
+    height: 90vh;
+  }
+}
+@media (min-width: 768px) {
+  .outstanding-container {
+    height: 130vh;
+  }
+}
+
 @media (min-width: 992px) {
   .prueba1,
   .prueba2 {
     position: static;
+  }
+  .outstanding-container {
+    height: 45vh;
   }
   .comments-container {
     height: 500px;
@@ -319,5 +354,10 @@ footer > article > div {
   }
   footer > article > div {
     flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  .outstanding-container {
+    height: 50vh;
   }
 }
