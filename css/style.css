@@ -292,6 +292,7 @@ header {
   border-right: 50vw solid rgb(102, 200, 218);
   border-top: 20vw solid transparent;
   border-bottom: 20vw solid rgb(55, 52, 52);
+  margin-bottom: -3px;
 }
 .accion-content {
   width: 100vw;
