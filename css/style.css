@@ -3,7 +3,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: red 1px solid !important;
+  /*  border: red 1px solid !important; */
 }
 body {
   font-size: 62.5%;
@@ -299,6 +299,19 @@ header {
   border-left: 50vw solid rgb(102, 200, 218);
   border-right: 50vw solid rgb(102, 200, 218);
   border-bottom: 10vw solid transparent;
+}
+
+footer {
+  background-color: rgb(55, 52, 52);
+  color: white;
+  margin-top: -48px;
+}
+.footer-content::before {
+  content: "";
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-top: 0 solid transparent;
+  border-bottom: 10vw solid rgb(55, 52, 52);
 }
 @media (min-width: 992px) {
   .prueba1,
