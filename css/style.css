@@ -293,6 +293,7 @@ header {
   border-left: 50vw solid rgb(102, 200, 218);
   border-right: 50vw solid rgb(102, 200, 218);
   border-top: 10vw solid transparent;
+  border-bottom: 1vw solid rgb(102, 200, 218);
 }
 .accion-container::after {
   content: "";
@@ -304,24 +305,32 @@ header {
 footer {
   background-color: rgb(55, 52, 52);
   color: white;
-  margin-top: -48px;
+  /* margin-top: -48px; */
+  padding-top: 70px;
+  margin-top: -50px;
 }
-.footer-content::before {
+/* .footer-content::before {
   content: "";
   border-left: 50vw solid transparent;
   border-right: 50vw solid transparent;
   border-top: 0 solid transparent;
   border-bottom: 10vw solid rgb(55, 52, 52);
-}
+} */
 @media (min-width: 992px) {
   .prueba1,
   .prueba2 {
     position: static;
+  }
+  .comments-container {
+    height: 500px;
   }
   .accion-container::before {
     border-top: 8vw solid transparent;
   }
   .accion-container::after {
     border-bottom: 8vw solid transparent;
+  }
+  footer {
+    padding-top: 80px;
   }
 }
