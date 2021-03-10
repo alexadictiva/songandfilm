@@ -300,7 +300,7 @@ header {
   border-left: 50vw solid rgb(102, 200, 218);
   border-right: 50vw solid rgb(102, 200, 218);
   border-bottom: 10vw solid transparent;
-  border-top: 2vw solid transparent;
+  border-top: 5vw solid transparent;
 }
 
 footer {
