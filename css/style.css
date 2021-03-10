@@ -284,9 +284,31 @@ header {
 .prueba2 {
   position: absolute;
 }
+.accion-content {
+  background-color: rgb(102, 200, 218);
+  color: white;
+}
+.accion-container::before {
+  content: "";
+  border-left: 50vw solid rgb(102, 200, 218);
+  border-right: 50vw solid rgb(102, 200, 218);
+  border-top: 10vw solid transparent;
+}
+.accion-container::after {
+  content: "";
+  border-left: 50vw solid rgb(102, 200, 218);
+  border-right: 50vw solid rgb(102, 200, 218);
+  border-bottom: 10vw solid transparent;
+}
 @media (min-width: 992px) {
   .prueba1,
   .prueba2 {
     position: static;
+  }
+  .accion-container::before {
+    border-top: 8vw solid transparent;
+  }
+  .accion-container::after {
+    border-bottom: 8vw solid transparent;
   }
 }
