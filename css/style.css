@@ -288,19 +288,17 @@ header {
   background-color: rgb(102, 200, 218);
   color: white;
 }
-.accion-container::before {
-  content: "";
+.accion-container {
+  position:relative;
   border-left: 50vw solid rgb(102, 200, 218);
   border-right: 50vw solid rgb(102, 200, 218);
-  border-top: 10vw solid transparent;
-  border-bottom: 1vw solid rgb(102, 200, 218);
+  border-top: 20vw solid transparent;
+  border-bottom: 20vw solid transparent;
 }
-.accion-container::after {
-  content: "";
-  border-left: 50vw solid rgb(102, 200, 218);
-  border-right: 50vw solid rgb(102, 200, 218);
-  border-bottom: 10vw solid transparent;
-  border-top: 5vw solid transparent;
+.accion-content{
+  position:absolute;
+  width:100vw;
+  margin-left:-50vw;
 }
 
 footer {
