@@ -323,13 +323,7 @@ footer {
   .comments-container {
     height: 500px;
   }
-  .accion-container::before {
-    border-top: 8vw solid transparent;
-  }
-  .accion-container::after {
-    border-bottom: 8vw solid transparent;
-  }
-  footer {
+   footer {
     padding-top: 80px;
   }
 }
