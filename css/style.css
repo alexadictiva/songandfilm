@@ -294,7 +294,7 @@ header {
 }
 .outstanding-container {
   height: 130vh;
-  margin-top: -75x;
+  margin-top: -75px;
 }
 
 .accion-container {
@@ -326,7 +326,7 @@ footer > article > div {
 @media (min-width: 375px) {
   .outstanding-container {
     height: 115vh;
-    margin-top: -75px;
+    margin-top: -82px;
   }
 }
 @media (min-width: 375px) and (height: 812px) {
