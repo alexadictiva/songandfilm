@@ -13,11 +13,14 @@ body {
 /*Header*/
 header {
   z-index: 10;
+  color:white;
 }
 .nav-container {
   padding-left: 15%;
 }
-
+header > cotainer {
+  width:50vw;
+}
 /*Main*/
 /*Start Banner Animation*/
 
