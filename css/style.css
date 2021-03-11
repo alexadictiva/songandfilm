@@ -335,6 +335,11 @@ footer > article > div {
     margin-top: -75px;
   }
 }
+@media (min-width: 415px) {
+  .outstanding-container {
+    margin-top: -82px;
+  }
+}
 @media (min-width: 768px) {
   .outstanding-container {
     height: 130vh;
