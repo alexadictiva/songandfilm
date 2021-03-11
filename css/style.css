@@ -260,8 +260,8 @@ header {
 
 /*End Second Animation*/
 .outstanding-container {
-  border-left: 81vw solid white;
-  border-right: 21vw solid white;
+  border-left: 80vw solid white;
+  border-right: 20vw solid white;
   border-top: 20vw solid transparent;
   border-bottom: 2vw solid transparent;
 }
