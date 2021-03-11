@@ -13,13 +13,13 @@ body {
 /*Header*/
 header {
   z-index: 10;
-  color:white;
+  color: white;
 }
-.nav-container {
-  padding-left: 15%;
+.nav-link {
+  color: black;
 }
-header > .container{
-  width:25vw;
+.nav-rrss {
+  width: 25vw;
 }
 /*Main*/
 /*Start Banner Animation*/
@@ -294,11 +294,12 @@ header > .container{
 }
 .prueba2 {
   position: absolute;
+  background-color: white;
 }
 .accion-content {
   color: white;
 }
-.outstanding-container {  
+.outstanding-container {
   margin-top: -75px;
 }
 .modal-dialog {
@@ -332,12 +333,12 @@ footer > article > div {
 }
 
 @media (min-width: 375px) {
-  .outstanding-container {    
+  .outstanding-container {
     margin-top: -82px;
   }
 }
 @media (min-width: 375px) and (height: 812px) {
-  .outstanding-container {    
+  .outstanding-container {
     margin-top: -75px;
   }
 }
@@ -347,10 +348,10 @@ footer > article > div {
   }
 }
 @media (min-width: 768px) {
-  .outstanding-container {    
+  .outstanding-container {
     margin-top: -153px;
   }
-  .outstanding-content {  
+  .outstanding-content {
     margin-left: -75vw;
   }
 }
@@ -359,28 +360,34 @@ footer > article > div {
   .nav-container {
     padding-left: 10%;
   }
+  .nav-link {
+    color: white;
+  }
   .prueba1,
   .prueba2 {
     position: static;
   }
-  .outstanding-container {    
+  .prueba2 {
+    background-color: transparent;
+  }
+  .outstanding-container {
     margin-top: -205px;
   }
   .outstanding-content {
-  margin-left: -78vw;
-}
+    margin-left: -78vw;
+  }
   .comments-container {
     height: 500px;
   }
   .accion-container {
-    height: 60vh;
+    height: 100vh;
   }
   footer > article > div {
     flex-direction: row;
   }
 }
 @media (min-width: 1200px) {
-  .outstanding-container {    
+  .outstanding-container {
     margin-top: -240px;
   }
 }
