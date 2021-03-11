@@ -29,6 +29,7 @@ header {
   height: calc(70vh - 50px);
   transition: all 0.1s ease-in-out;
   animation: banner 28s infinite linear;
+  overflow: hidden;
 }
 .banner-content {
   width: 100%;
@@ -45,9 +46,11 @@ header {
 @keyframes banner {
   0% {
     background-image: url("../assets/img/img-banner1.jpg");
+    /* transform: scale(1); */
   }
   25% {
     background-image: url("../assets/img/img-banner1.jpg");
+    /* transform: scale(1.2); */
   }
   26% {
     background-image: url("../assets/img/img-banner2.jpg");
@@ -257,8 +260,8 @@ header {
 
 /*End Second Animation*/
 .outstanding-container {
-  border-left: 80vw solid white;
-  border-right: 20vw solid white;
+  border-left: 81vw solid white;
+  border-right: 21vw solid white;
   border-top: 20vw solid transparent;
   border-bottom: 2vw solid transparent;
 }
