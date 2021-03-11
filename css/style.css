@@ -18,7 +18,9 @@ header {
 .nav-container {
   padding-left: 15%;
 }
-
+header > .container{
+  width:25vw;
+}
 /*Main*/
 /*Start Banner Animation*/
 
