@@ -259,7 +259,7 @@ header {
 .outstanding-container {
   border-left: 80vw solid white;
   border-right: 20vw solid white;
-  border-top: 20vw solid red;
+  border-top: 20vw solid transparent;
   border-bottom: 2vw solid transparent;
 }
 .text-blue,
@@ -294,6 +294,7 @@ header {
 }
 .outstanding-container {
   height: 130vh;
+  margin-top: -75x;
 }
 
 .accion-container {
@@ -325,16 +326,19 @@ footer > article > div {
 @media (min-width: 375px) {
   .outstanding-container {
     height: 115vh;
+    margin-top: -75px;
   }
 }
 @media (min-width: 375px) and (height: 812px) {
   .outstanding-container {
     height: 90vh;
+    margin-top: -75px;
   }
 }
 @media (min-width: 768px) {
   .outstanding-container {
     height: 130vh;
+    margin-top: -153px;
   }
 }
 
@@ -345,6 +349,7 @@ footer > article > div {
   }
   .outstanding-container {
     height: 45vh;
+    margin-top: -205px;
   }
   .comments-container {
     height: 500px;
@@ -359,5 +364,6 @@ footer > article > div {
 @media (min-width: 1200px) {
   .outstanding-container {
     height: 50vh;
+    margin-top: -240px;
   }
 }
