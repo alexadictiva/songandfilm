@@ -296,6 +296,9 @@ header {
   height: 130vh;
   margin-top: -75px;
 }
+.modal-dialog {
+  margin-top: 40vh;
+}
 
 .accion-container {
   height: 70vh;
