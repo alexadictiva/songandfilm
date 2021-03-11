@@ -21,6 +21,11 @@
       class="d-flex justify-content-center align-items-center position-absolute w-100 mt-4 mb-4"
     >
       <div class="d-flex align-items-center">
+        <section class="logo-lg d-none d-lg-block">
+          <a href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" class="img-fluid" />
+          </a>
+        </section>
         <section class="nav-container">
           <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -38,24 +43,27 @@
               <div class="prueba1 navbar-collapse collapse" id="navbarNav">
                 <ul class="prueba2 navbar-nav px-5 fs-6">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="index.html"
                       >Home</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="about.html">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="placements.html">Placements</a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      class="nav-link disabled"
-                      href="#"
-                      tabindex="-1"
-                      aria-disabled="true"
-                      >Disabled</a
-                    >
+                    <a class="nav-link" href="news.html">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="otherservices.html"> Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -82,11 +90,13 @@
         <div
           class="banner-content d-flex flex-column justify-content-center align-items-center"
         >
-          <article class="img-container pb-4">
-            <img src="assets/img/logo.png" alt="Logo" class="img-fluid" />
+          <article class="img-container d-lg-none pb-4">
+            <a href="index.html">
+              <img src="assets/img/logo.png" alt="Logo" class="img-fluid" />
+            </a>
           </article>
           <article class="slogan-container pb-2 mb-2">
-            <h2 class="slogan">Music for TV & Film</h2>
+            <h2 class="slogan pb-5">Music for TV & Film</h2>
           </article>
           <article class="text-animation position-relative">
             <aside class="content">
@@ -118,9 +128,7 @@
                 like AMC, FOX, ABC, NBC, WB, CW, Disney, and countless others
                 only receive the best music for their projects.
               </p>
-              <a
-                href="#"
-                class="btn btn-outline-primary w-50 text-uppercase mb-4"
+              <a href="#" class="btn btn-outline-primary text-uppercase mb-4"
                 >Request Our Music!</a
               >
             </article>
@@ -371,7 +379,7 @@
         <div class="accion-content position-absolute">
           <h2 class="accion-tittle mb-3 fs-4">Your Music in TV & Flim.</h2>
           <h2 class="accion-tittle mb-4 fs-4">Be Discovered. Be Heard.</h2>
-          <a href="#" class="btn btn-outline-primary text-uppercase">Submit!</a>
+          <a href="#" class="btn btn-outline-warning text-uppercase">Submit!</a>
         </div>
       </section>
     </main>
@@ -380,17 +388,23 @@
       <article class="footer-content w-100 h-100 row p-0 m-0">
         <div class="mt-4 d-flex justify-content-between">
           <div class="d-flex w-100">
-            <div class="col-1">
+            <div
+              class="col-1 d-flex justify-content-center align-items-center mx-2"
+            >
               <i class="fab fa-facebook-f fs-4"></i>
             </div>
-            <div class="col-1">
+            <div
+              class="col-1 d-flex justify-content-center align-items-center mx-2"
+            >
               <i class="fab fa-twitter fs-4"></i>
             </div>
-            <div class="col-1">
+            <div
+              class="col-1 d-flex justify-content-center align-items-center mx-2"
+            >
               <i class="fab fa-soundcloud fs-4"></i>
             </div>
           </div>
-          <div class="col-12 col-lg-2">
+          <div class="col-12 col-lg-2 mt-2">
             <p class="footer-description m-0 fs-6">&copy; 2016 Song and Film</p>
           </div>
         </div>

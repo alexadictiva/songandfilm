@@ -262,6 +262,29 @@ header {
 }
 
 /*End Second Animation*/
+.btn-outline-primary {
+  color: rgb(55, 52, 52);
+  border-color: rgb(55, 52, 52);
+  width: 200px;
+}
+.btn-outline-primary:hover {
+  color: white;
+  border-color: white;
+  background-color: rgb(55, 52, 52);
+}
+.btn-outline-warning {
+  color: white;
+  border-color: white;
+  border-radius: 50px;
+}
+.btn-outline-warning:hover {
+  color: rgb(55, 52, 52);
+
+  background-color: white;
+}
+.logo-lg {
+  margin-left: 25px;
+}
 .outstanding-container {
   border-left: 80vw solid white;
   border-right: 20vw solid white;
@@ -331,6 +354,11 @@ footer {
 footer > article > div {
   flex-direction: column;
 }
+.col-1 {
+  width: 40px;
+  height: 40px;
+  box-shadow: 2px 2px 3px rgb(19, 19, 19);
+}
 
 @media (min-width: 375px) {
   .outstanding-container {
@@ -343,6 +371,9 @@ footer > article > div {
   }
 }
 @media (min-width: 415px) {
+  .slogan {
+    font-size: 4rem;
+  }
   .outstanding-container {
     margin-top: -82px;
   }
@@ -357,9 +388,9 @@ footer > article > div {
 }
 
 @media (min-width: 992px) {
-  .nav-container {
+  /* .nav-container {
     padding-left: 10%;
-  }
+  } */
   .nav-link {
     color: white;
   }
@@ -370,11 +401,21 @@ footer > article > div {
   .prueba2 {
     background-color: transparent;
   }
+  .banner-container {
+    height: calc(90vh - 50px);
+  }
+  .slogan {
+    font-size: 4.5rem;
+  }
+
   .outstanding-container {
     margin-top: -205px;
   }
   .outstanding-content {
     margin-left: -78vw;
+  }
+  .outstanding-tittle {
+    font-size: 4rem;
   }
   .comments-container {
     height: 500px;
@@ -386,6 +427,7 @@ footer > article > div {
     flex-direction: row;
   }
 }
+
 @media (min-width: 1200px) {
   .outstanding-container {
     margin-top: -240px;
