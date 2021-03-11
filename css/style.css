@@ -15,7 +15,7 @@ header {
   z-index: 10;
 }
 .nav-container {
-  padding-left: 25%;
+  padding-left: 15%;
 }
 
 /*Main*/
@@ -295,8 +295,7 @@ header {
 .accion-content {
   color: white;
 }
-.outstanding-container {
-  height: 130vh;
+.outstanding-container {  
   margin-top: -75px;
 }
 .modal-dialog {
@@ -330,14 +329,12 @@ footer > article > div {
 }
 
 @media (min-width: 375px) {
-  .outstanding-container {
-    height: 115vh;
+  .outstanding-container {    
     margin-top: -82px;
   }
 }
 @media (min-width: 375px) and (height: 812px) {
-  .outstanding-container {
-    height: 90vh;
+  .outstanding-container {    
     margin-top: -75px;
   }
 }
@@ -347,21 +344,28 @@ footer > article > div {
   }
 }
 @media (min-width: 768px) {
-  .outstanding-container {
-    height: 130vh;
+  .outstanding-container {    
     margin-top: -153px;
+  }
+  .outstanding-content {  
+    margin-left: -75vw;
   }
 }
 
 @media (min-width: 992px) {
+  .nav-container {
+    padding-left: 10%;
+  }
   .prueba1,
   .prueba2 {
     position: static;
   }
-  .outstanding-container {
-    height: 45vh;
+  .outstanding-container {    
     margin-top: -205px;
   }
+  .outstanding-content {
+  margin-left: -78vw;
+}
   .comments-container {
     height: 500px;
   }
@@ -373,8 +377,7 @@ footer > article > div {
   }
 }
 @media (min-width: 1200px) {
-  .outstanding-container {
-    height: 50vh;
+  .outstanding-container {    
     margin-top: -240px;
   }
 }
