@@ -9,7 +9,9 @@ body {
   font-size: 62.5%;
   overflow-x: hidden;
 }
-
+i {
+  color: white;
+}
 /*Header*/
 header {
   z-index: 10;
