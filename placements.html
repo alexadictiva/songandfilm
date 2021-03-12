@@ -17,11 +17,11 @@
     <title>Song & Film</title>
   </head>
   <body>
-     <header
-      class="d-flex justify-content-center align-items-center position-absolute w-100 mt-4 mb-4"
+    <header
+      class="d-flex justify-content-center align-items-center position-relative w-100 py-4 bg-body"
     >
       <div class="d-flex align-items-center">
-        <section class="logo-lg d-none d-lg-block">
+        <section class="logo-lg d-none d-lg-block py-3">
           <a href="index.html">
             <img src="assets/img/logo.png" alt="Logo" class="img-fluid" />
           </a>
@@ -37,10 +37,17 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <i class="fas fa-bars fs-2" aria-hidden="true"></i>
+                <i
+                  class="fas fa-bars fs-2"
+                  style="color: black"
+                  aria-hidden="true"
+                ></i>
               </div>
 
-              <div class="prueba1 navbar-collapse collapse position-relative id="navbarNav">
+              <div
+                class="prueba1 navbar-collapse collapse position-relative"
+                id="navbarNav"
+              >
                 <ul class="prueba2 navbar-nav px-5 fs-4">
                   <li class="nav-item">
                     <a
@@ -51,19 +58,36 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" style="color: black" href="about.html"
+                      >About</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="placements.html">Placements</a>
+                    <a
+                      class="nav-link"
+                      style="color: black"
+                      href="placements.html"
+                      >Placements</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="news.html">News</a>
+                    <a class="nav-link" style="color: black" href="news.html"
+                      >News</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="otherservices.html"> Services</a>
+                    <a
+                      class="nav-link"
+                      style="color: black"
+                      href="otherservices.html"
+                    >
+                      Services</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" style="color: black" href="contact.html"
+                      >Contact</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -74,17 +98,29 @@
           <div class="row mx-0">
             <div class="col-2 mx-3">
               <a href="https://www.facebook.com/songandfilm">
-                <i class="fab fa-facebook-f fs-2" aria-hidden="true"></i>
+                <i
+                  class="fab fa-facebook-f fs-2"
+                  style="color: black"
+                  aria-hidden="true"
+                ></i>
               </a>
             </div>
             <div class="col-2 mx-3">
               <a href="https://twitter.com/songandfilm">
-                <i class="fab fa-twitter fs-2" aria-hidden="true"></i>
+                <i
+                  class="fab fa-twitter fs-2"
+                  style="color: black"
+                  aria-hidden="true"
+                ></i>
               </a>
             </div>
             <div class="col-2 mx-3">
               <a href="https://soundcloud.com/songandfilm">
-                <i class="fab fa-soundcloud fs-2" aria-hidden="true"></i>
+                <i
+                  class="fab fa-soundcloud fs-2"
+                  style="color: black"
+                  aria-hidden="true"
+                ></i>
               </a>
             </div>
           </div>
@@ -92,15 +128,21 @@
       </div>
     </header>
     <main>
-      <section class="banner-container text-center position-relative mb-4">
+      <section
+        class="logo-container d-flex justify-content-center border-top position-relative bg-body"
+      >
+        <article class="img-container d-lg-none p-4">
+          <a href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" class="img-fluid" />
+          </a>
+        </article>
+      </section>
+      <section
+        class="banner-container-placements text-center position-relative mb-4"
+      >
         <div
-          class="banner-content d-flex flex-column justify-content-center align-items-center"
+          class="banner-content-placements d-flex flex-column justify-content-center align-items-center"
         >
-          <article class="img-container d-lg-none mb-4 pb-4">
-            <a href="index.html">
-              <img src="assets/img/logo.png" alt="Logo" class="img-fluid" />
-            </a>
-          </article>
           <article class="text-animation position-relative">
             <aside class="content position-absolute">
               <div class="content__container">
@@ -118,94 +160,106 @@
       </section>
       <section class="card-container container mb-4">
         <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center"
+          >
+            <hr class="w-50" />
+          </div>
           <div class="col">
-            <div class="card">
-              <img src="assets/img/denzel.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text mb-4">
+            <div class="card-placement card p-4">
+              <img
+                src="assets/img/christmas.jpg"
+                class="card-img-top mb-4"
+                alt="..."
+              />
+              <div class="card-body-placements">
+                <p class="card-text mb-4 fs-4">
                   Featured Placements: Christmas By Chance
                 </p>
-                <a href="#" class="card-text mb-4"
+                <a href="#" class="card-body-placements mb-4 fs-4"
                   ><small class="text-muted">Continue Reading </small>
-                  <i class="fas fa-chevron-right"></i
+                  <i class="fas fa-chevron-right mx-2" style="color: black"></i
                 ></a>
               </div>
+              <section class="container">
+                <article class="row mt-4">
+                  <div class="profile col-6 col-lg-6 fs-4 p-0">
+                    <i class="fas fa-user mx-2"></i>JZ
+                  </div>
+                  <div class="profile col-6 col-lg-6 fs-4 p-0">
+                    <i class="fas fa-list-alt mx-2"></i>PLACEMENTS
+                  </div>
+                  <div class="profile col-12 col-lg-12 fs-4 mt-3">LIKE</div>
+                </article>
+              </section>
             </div>
           </div>
           <div class="col">
-            <div class="card">
-              <img src="assets/img/denzel.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text mb-4">
-                  Featured Placements: Christmas By Chance
+            <div class="card-placement card p-4">
+              <img
+                src="assets/img/denzel.jpg"
+                class="card-img-top mb-4"
+                alt="..."
+              />
+              <div class="card-body-placements">
+                <p class="card-text mb-4 fs-4">
+                  Featured Placements: The Little Things
                 </p>
-                <a href="#" class="card-text mb-4"
+                <a href="#" class="card-body-placements mb-4 fs-4"
                   ><small class="text-muted">Continue Reading </small>
-                  <i class="fas fa-chevron-right"></i
+                  <i class="fas fa-chevron-right mx-2" style="color: black"></i
                 ></a>
               </div>
+              <section class="container">
+                <article class="row mt-4">
+                  <div class="profile col-6 col-lg-6 fs-4 p-0">
+                    <i class="fas fa-user mx-2"></i>JZ
+                  </div>
+                  <div class="profile col-6 col-lg-6 fs-4 p-0">
+                    <i class="fas fa-list-alt mx-2"></i>PLACEMENTS
+                  </div>
+                  <div class="profile col-12 col-lg-12 fs-4 mt-3">LIKE</div>
+                </article>
+              </section>
             </div>
           </div>
           <div class="col">
-            <div class="card">
-              <img src="assets/img/denzel.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text mb-4">
-                  Featured Placements: Christmas By Chance
+            <div class="card-placement card p-4">
+              <img
+                src="assets/img/sunset.jpg"
+                class="card-img-top mb-4"
+                alt="..."
+              />
+              <div class="card-body-placements">
+                <p class="card-text mb-4 fs-4">
+                  Featured Placements: Selling Sunset
                 </p>
-                <a href="#" class="card-text mb-4"
+                <a href="#" class="card-body-placements mb-4 fs-4"
                   ><small class="text-muted">Continue Reading </small>
-                  <i class="fas fa-chevron-right"></i
+                  <i class="fas fa-chevron-right mx-2" style="color: black"></i
                 ></a>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="assets/img/denzel.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text mb-4">
-                  Featured Placements: Christmas By Chance
-                </p>
-                <a href="#" class="card-text mb-4"
-                  ><small class="text-muted">Continue Reading </small>
-                  <i class="fas fa-chevron-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="assets/img/denzel.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text mb-4">
-                  Featured Placements: Christmas By Chance
-                </p>
-                <a href="#" class="card-text mb-4"
-                  ><small class="text-muted">Continue Reading </small>
-                  <i class="fas fa-chevron-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="assets/img/denzel.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text mb-4">
-                  Featured Placements: Christmas By Chance
-                </p>
-                <a href="#" class="card-text mb-4"
-                  ><small class="text-muted">Continue Reading </small>
-                  <i class="fas fa-chevron-right"></i
-                ></a>
-              </div>
+              <section class="container">
+                <article class="row mt-4">
+                  <div class="profile col-6 col-lg-6 fs-4 p-0">
+                    <i class="fas fa-user mx-2"></i>GLORY
+                  </div>
+                  <div class="profile col-6 col-lg-6 fs-4 p-0">
+                    <i class="fas fa-list-alt mx-2"></i>PLACEMENTS
+                  </div>
+                  <div class="profile col-12 col-lg-12 fs-4 mt-3">LIKE</div>
+                </article>
+              </section>
             </div>
           </div>
         </div>
-        <a href="contact.html" class="btn btn-outline-success my-4"
-          >Load More</a
-        >
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="contact.html" class="btn btn-outline-success my-4"
+              >Load More</a
+            >
+          </div>
+        </div>
       </section>
     </main>
 

@@ -1,8 +1,10 @@
 /*General*/
 :root {
   font-size: 62.5%;
+  --bg-body: #eee;
   --white: rgb(255, 255, 255); /*var(--footer-sadow)*/
-  --black: rgb(0, 0, 0, 0);
+
+  --black: black;
   --darkgrey: rgb(55, 52, 52);
   --grey-shadow: rgba(37, 40, 43, 0.6);
   --light-blue: rgb(102, 200, 218);
@@ -14,6 +16,8 @@
   --service-bg-five: rgba(59, 117, 172, 0.6);
   --service-bg-carousel: rgba(250, 246, 246, 0.9);
   --service-bg-banner: rgba(37, 40, 43, 0.6);
+  --bg-card: rgb(227, 242, 245);
+  --color-text-card: #aaa;
 }
 
 * {
@@ -23,6 +27,7 @@
   /* border: red 1px solid !important; */
 }
 body {
+  background-color: var(--bg-body);
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
 }
@@ -71,7 +76,7 @@ header {
   color: var(--black);
 }
 .nav-rrss {
-  width: 50vw;
+  width: 38vw;
 }
 /*Main*/
 
@@ -462,6 +467,35 @@ footer > article > div {
 }
 .service-carousel {
   background-color: var(--service-bg-carousel);
+}
+.logo-container {
+  z-index: 5;
+  padding-bottom: 50px;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+.banner-container-placements {
+  margin-top: -50px;
+}
+.banner-container-placements {
+  height: 95vh;
+  background-image: url("../assets/img/img-banner5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-content-placements {
+  width: 100%;
+  height: 100%;
+  background-color: var(--service-bg-banner);
+}
+.card-placement {
+  background: var(--bg-card);
+}
+.profile,
+.fa-user,
+.fa-list-alt {
+  color: var(--color-text-card);
 }
 /*Media Queries*/
 @media (min-width: 375px) {
