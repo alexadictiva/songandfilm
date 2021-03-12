@@ -360,7 +360,42 @@ footer > article > div {
   height: 40px;
   box-shadow: 2px 2px 3px rgb(19, 19, 19);
 }
+.title-about {
+  font-size: 3rem;
+}
+/*Styles Views*/
 
+.things-container {
+  background-image: url("../assets/img/bg-about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.things-content {
+  color: white;
+}
+.things-content > .row {
+  width: 100vw;
+}
+.thing-one {
+  background-color: rgba(44, 169, 191, 0.6);
+}
+.thing-two {
+  background-color: rgba(59, 172, 170, 0.6);
+}
+.thing-three {
+  background-color: rgba(48, 155, 179, 0.6);
+}
+.thing-four {
+  background-color: rgba(46, 148, 186, 0.6);
+}
+.thing-five {
+  background-color: rgba(59, 117, 172, 0.6);
+}
+.thing-carousel {
+  background-color: rgba(250, 246, 246, 0.9);
+}
+/*Media Queries*/
 @media (min-width: 375px) {
   .outstanding-container {
     margin-top: -82px;
@@ -426,6 +461,9 @@ footer > article > div {
   }
   footer > article > div {
     flex-direction: row;
+  }
+  .title-about {
+    font-size: 4.5rem;
   }
 }
 
