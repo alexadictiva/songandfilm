@@ -538,6 +538,7 @@ footer > article > div {
 .tittle-news {
   color: var(--white);
 }
+
 /*Media Queries*/
 
 @media (min-width: 415px) {
