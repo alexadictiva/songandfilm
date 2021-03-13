@@ -2,8 +2,7 @@
 :root {
   font-size: 62.5%;
   --bg-body: #eee;
-  --white: rgb(255, 255, 255); /*var(--footer-sadow)*/
-
+  --white: rgb(255, 255, 255);
   --black: black;
   --darkgrey: rgb(55, 52, 52);
   --grey-shadow: rgba(37, 40, 43, 0.6);
@@ -434,7 +433,8 @@ footer > article > div {
 }
 
 /*Styles Views*/
-.title-about {
+.title-about,
+.tittle-news {
   font-size: 3.5rem;
 }
 
@@ -476,8 +476,6 @@ footer > article > div {
 }
 .banner-container-placements {
   margin-top: -50px;
-}
-.banner-container-placements {
   height: 95vh;
   background-image: url("../assets/img/img-banner5.jpg");
   background-position: center;
@@ -496,6 +494,30 @@ footer > article > div {
 .fa-user,
 .fa-list-alt {
   color: var(--color-text-card);
+}
+.tittle-news {
+  color: var(--white);
+}
+.logo-container-news {
+  z-index: 5;
+  padding-bottom: 50px;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+
+.banner-container-news {
+  margin-top: -50px;
+  height: 95vh;
+  background-image: url("../assets/img/img-banner9.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-content-news {
+  width: 100%;
+  height: 100%;
+  background-color: var(--service-bg-banner);
 }
 /*Media Queries*/
 @media (min-width: 375px) {
