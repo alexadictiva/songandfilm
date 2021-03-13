@@ -360,8 +360,8 @@ header {
 
 /*outstanding section*/
 .outstanding-container {
-  border-left: 80vw solid var(--white);
-  border-right: 20vw solid var(--white);
+  border-left: 80vw solid var(--bg-body);
+  border-right: 20vw solid var(--bg-body);
   border-top: 20vw solid transparent;
   border-bottom: 2vw solid transparent;
   margin-top: -75px;
