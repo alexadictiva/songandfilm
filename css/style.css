@@ -4,9 +4,9 @@
   --bg-body: #eee;
   --white: rgb(255, 255, 255);
   --black: black;
-  --darkgrey: rgb(55, 52, 52);
+  --darkgrey: #343e3d;
   --grey-shadow: rgba(37, 40, 43, 0.6);
-  --light-blue: rgb(102, 200, 218);
+  --light-blue: #3abfd9;
   --footer-sadow: rgb(19, 19, 19);
   --service-bg-one: rgba(44, 169, 191, 0.6);
   --service-bg-two: rgba(59, 172, 170, 0.6);
@@ -18,6 +18,7 @@
   --bg-card: rgb(227, 242, 245);
   --color-text-card: #aaa;
   --clean-blue: rgb(236, 252, 255);
+  --transparent: transparent;
 }
 
 * {
@@ -414,7 +415,7 @@ header {
 
 .accion-container {
   height: 70vh;
-  background-color: var(--light-blue);
+  background-image: url("../assets/img/img-banner3.jpg");
   clip-path: polygon(
     0 0,
     0 0,
@@ -431,8 +432,8 @@ header {
   );
 }
 .accion-content {
-  width: 100vw;
   color: var(--white);
+  background-color: var(--service-bg-three);
 }
 
 /*Footer*/
@@ -583,12 +584,10 @@ footer > article > div {
   clip-path: polygon(0 0, 100% 0, 100% 78%, 20% 95%, 0 79%);
 }
 .banner-content-contact {
-  width: 100%;
-  height: 100%;
   background-color: var(--service-bg-banner);
 }
 .btn-warning {
-  background: transparent;
+  background: var(--transparent);
   border-color: var(--white);
   color: var(--white);
 }
@@ -599,7 +598,7 @@ footer > article > div {
   color: var(--white);
 }
 .rrss-contact > a > i {
-  color: black;
+  color: var(--black);
 }
 .stayintouch-container {
   color: var(--white);
@@ -635,7 +634,7 @@ footer > article > div {
   }
   .prueba2 {
     margin-top: auto;
-    background-color: transparent;
+    background-color: var(--transparent);
   }
   .slogan {
     font-size: 4.5rem;
