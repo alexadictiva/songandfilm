@@ -598,6 +598,25 @@ footer > article > div {
 .fa-envelope-square {
   color: var(--white);
 }
+.rrss-contact > a > i {
+  color: black;
+}
+.stayintouch-container {
+  color: var(--white);
+  height: 80vh;
+  background-image: url("../assets/img/img-banner9.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+}
+.stayintouch-content {
+  background-color: var(--service-bg-four);
+}
+.map-container {
+  clip-path: polygon(81% 0, 100% 15%, 100% 100%, 0 100%, 0 15%);
+}
+
 /*Media Queries*/
 
 @media (min-width: 415px) {
