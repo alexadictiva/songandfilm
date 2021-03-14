@@ -35,7 +35,7 @@ body {
 i {
   color: var(--white);
 }
-
+/*Buttons*/
 .btn-outline-primary {
   color: var(--darkgrey);
   border-color: var(--darkgrey);
@@ -55,7 +55,21 @@ i {
   color: var(--darkgrey);
   background-color: var(--white);
 }
-
+.btn-success {
+  background: var(--light-blue);
+}
+.btn-success:hover {
+  background: var(--white);
+  color: var(--light-blue);
+}
+.btn-warning {
+  background: var(--transparent);
+  border-color: var(--white);
+  color: var(--white);
+}
+.btn-warning:hover {
+  background: var(--light-blue);
+}
 /*Header*/
 header {
   z-index: 10;
@@ -64,7 +78,7 @@ header {
 .logo-lg {
   margin-left: 25px;
 }
-.prueba2 {
+.navbar-content {
   margin-top: 1rem;
   position: absolute;
   background-color: var(--white);
@@ -568,13 +582,7 @@ footer > article > div {
 .fa-check-square {
   color: var(--light-blue);
 }
-.btn-success {
-  background: var(--light-blue);
-}
-.btn-success:hover {
-  background: var(--white);
-  color: var(--light-blue);
-}
+
 .banner-container-contact {
   height: 95vh;
   background-image: url("../assets/img/img-banner5.jpg");
@@ -586,14 +594,7 @@ footer > article > div {
 .banner-content-contact {
   background-color: var(--service-bg-banner);
 }
-.btn-warning {
-  background: var(--transparent);
-  border-color: var(--white);
-  color: var(--white);
-}
-.btn-warning:hover {
-  background: var(--light-blue);
-}
+
 .fa-envelope-square {
   color: var(--white);
 }
@@ -628,11 +629,11 @@ footer > article > div {
   .nav-link {
     color: var(--white);
   }
-  .prueba1,
-  .prueba2 {
+  .navbar-container,
+  .navbar-content {
     position: static;
   }
-  .prueba2 {
+  .navbar-content {
     margin-top: auto;
     background-color: var(--transparent);
   }
