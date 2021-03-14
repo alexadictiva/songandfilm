@@ -82,11 +82,11 @@ header {
 .header-white .nav-link {
   color: var(--black);
 }
-/* .navbar-content {
+.navbar-content {
   margin-top: 1rem;
   position: absolute;
   background-color: var(--white);
-} */
+}
 
 .nav-item {
   margin: auto 8px;
