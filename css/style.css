@@ -34,6 +34,16 @@ body {
 }
 
 /*Buttons*/
+.button-top {
+  z-index: 15;
+  right: 5vw !important;
+}
+.button-top > .btn-secondary {
+  background-color: var(--white);
+}
+.fa-chevron-up {
+  color: var(--darkgrey);
+}
 .btn-outline-primary {
   color: var(--darkgrey);
   border-color: var(--darkgrey);
