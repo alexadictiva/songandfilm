@@ -32,9 +32,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
 }
-i {
-  color: var(--white);
-}
+
 /*Buttons*/
 .btn-outline-primary {
   color: var(--darkgrey);
@@ -78,11 +76,17 @@ header {
 .logo-lg {
   margin-left: 25px;
 }
-.navbar-content {
+.header-white i {
+  color: var(--black);
+}
+.header-white .nav-link {
+  color: var(--black);
+}
+/* .navbar-content {
   margin-top: 1rem;
   position: absolute;
   background-color: var(--white);
-}
+} */
 
 .nav-item {
   margin: auto 8px;
@@ -92,6 +96,9 @@ header {
 }
 .nav-rrss {
   width: 38vw;
+}
+i {
+  color: var(--white);
 }
 /*Main*/
 
