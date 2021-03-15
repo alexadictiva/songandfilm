@@ -548,6 +548,31 @@ footer > article > div {
 .card-placement {
   background: var(--bg-card);
 }
+/*prueba load more*/
+.blogBox .item {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+#loadMore {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+#loadMore a {
+  background: var(--light-blue);
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: all 0.25s ease-out;
+  -webkit-font-smoothing: antialiased;
+}
+#loadMore a:hover {
+  background-color: var(--darkgrey);
+}
+/*fin prueba load more*/
 .profile,
 .fa-user,
 .fa-list-alt {
