@@ -399,6 +399,9 @@ main {
 .modal-dialog {
   margin-top: 40vh;
 }
+.modal-backdrop {
+  display: none;
+}
 
 /*comments section*/
 .comments-container {
