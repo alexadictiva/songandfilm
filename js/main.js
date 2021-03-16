@@ -1,9 +1,16 @@
-/*js para menu*/
+/*js for menu*/
 
 $(document).ready(function () {
   $(".navbar-xbootstrap").click(function () {
     $(".nav-xbootstrap").toggleClass("visible");
-    $("body").toggleClass("cover-bg");
+  });
+});
+/*js for animation at the icon menu*/
+$(document).ready(function () {
+  $(".navbar-xbootstrap").click(function () {
+    $(".span1").toggleClass("rotateRight");
+    $(".span2").toggleClass("transparent");
+    $(".span3").toggleClass("rotateLeft");
   });
 });
 

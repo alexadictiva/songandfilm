@@ -175,7 +175,26 @@ a {
 .especial-item {
   margin-top: 0 !important;
 }
-
+/*animation*/
+.span1 {
+  top: 10px;
+}
+.span2 {
+  top: 5px;
+}
+.rotateRight {
+  top: 0;
+  transform: rotate(140deg);
+  transition: 0.5s ease-in-out;
+}
+.rotateLeft {
+  transform: rotate(-140deg);
+  transition: 0.5s ease-in-out;
+}
+.transparent {
+  background: transparent !important;
+}
+/*media query header*/
 @media only screen and (max-width: 900px) {
   .especial-item {
     margin-top: -25px !important;
@@ -258,7 +277,6 @@ a {
     cursor: pointer;
     margin: 0;
     position: absolute;
-
     left: 0;
     padding: 12px;
   }
