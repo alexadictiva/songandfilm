@@ -78,40 +78,11 @@ body {
 .btn-warning:hover {
   background: var(--light-blue);
 }
-/*Header*/
-header {
-  z-index: 10;
-  color: var(--white);
-}
-.logo-lg {
-  margin-left: 25px;
-}
-.header-white i {
-  color: var(--black);
-}
-.header-white .nav-link {
-  color: var(--black);
-}
-.navbar-content {
-  margin-top: 1rem;
-  position: absolute;
-  background-color: var(--white);
-}
 
-.nav-item {
-  margin: auto 8px;
-}
-.nav-link {
-  color: var(--black);
-}
-.nav-rrss {
-  width: 38vw;
-}
-i {
-  color: var(--white);
-}
 /*Main*/
-
+main {
+  margin-top: 80px;
+}
 /*Start Banner Animation*/
 
 .banner-container,
@@ -483,7 +454,9 @@ footer > article > div {
   height: 40px;
   box-shadow: 2px 2px 3px var(--footer-sadow);
 }
-
+.footer-content > div > div > div > a > i {
+  color: var(--white);
+}
 /*Styles Views*/
 .title-about,
 .tittle-news {

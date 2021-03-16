@@ -1,9 +1,11 @@
-/* var myModal = document.getElementById("myModal");
-var myInput = document.getElementById("myInput");
+/*js para menu*/
 
-myModal.addEventListener("shown.bs.modal", function () {
-  myInput.focus();
-}); */
+$(document).ready(function () {
+  $(".navbar-xbootstrap").click(function () {
+    $(".nav-xbootstrap").toggleClass("visible");
+    $("body").toggleClass("cover-bg");
+  });
+});
 
 /*js for load more*/
 $(document).ready(function () {
