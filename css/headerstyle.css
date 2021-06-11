@@ -131,9 +131,9 @@ a {
   border-bottom: none;
 }
 
-.nav-xbootstrap li:hover{
+/*.nav-xbootstrap li:hover{
   background: var(--light-blue);
-}
+}*/
 .nav-xbootstrap li:hover a{
   background: var(--white);
 }
