@@ -137,11 +137,11 @@ a {
 .nav-xbootstrap li:hover a{
   background: var(--white);
 }
-/*
+
 .nav-xbootstrap li:hover a {
-  background: var(--black);
+  background: var(--light-blue);
   color: var(--white);
-}*/
+}
 
 .nav-xbootstrap li:hover a.logo {
   background: transparent;
