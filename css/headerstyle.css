@@ -132,7 +132,7 @@ a {
 }
 
 .nav-xbootstrap li:hover a {
-  background: var(--black);
+  background: var(--light-blue);
   color: var(--white);
 }
 
