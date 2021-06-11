@@ -131,10 +131,17 @@ a {
   border-bottom: none;
 }
 
-.nav-xbootstrap li:hover a {
+.nav-xbootstrap li:hover{
   background: var(--light-blue);
-  color: var(--white);
 }
+.nav-xbootstrap li:hover a{
+  background: var(--white);
+}
+/*
+.nav-xbootstrap li:hover a {
+  background: var(--black);
+  color: var(--white);
+}*/
 
 .nav-xbootstrap li:hover a.logo {
   background: transparent;
