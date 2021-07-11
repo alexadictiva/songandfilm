@@ -1,10 +1,10 @@
 /*js for menu*/
-
 $(document).ready(function () {
   $(".navbar-xbootstrap").click(function () {
     $(".nav-xbootstrap").toggleClass("visible");
   });
 });
+
 /*js for animation at the icon menu*/
 $(document).ready(function () {
   $(".navbar-xbootstrap").click(function () {

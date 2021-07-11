@@ -363,7 +363,7 @@ main {
 
 /*outstanding section*/
 .outstanding-container {
-  clip-path: polygon(
+  /*  clip-path: polygon(
     0 0,
     0 0,
     0 51%,
@@ -376,15 +376,15 @@ main {
     100% 0,
     100% 0,
     86% 11%
-  );
+  );*/
   background-color: var(--bg-body);
   margin-top: -145px;
-  z-index: 7;
+  /*z-index: 7;*/
 }
 
 .outstanding-content {
   width: 100vw;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
 }
 .outstanding-tittle,
 .commet-tittle,
@@ -399,9 +399,9 @@ main {
 .modal-dialog {
   margin-top: 40vh;
 }
-.modal-backdrop {
+/* .modal-backdrop {
   display: none;
-}
+} */
 
 /*comments section*/
 .comments-container {
