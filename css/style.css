@@ -397,7 +397,7 @@ main {
   color: var(--light-blue);
 }
 .modal-dialog {
-  margin-top: calc(100% - 180px);
+  margin-top: 25%;
 }
 /* .modal-backdrop {
   display: none;
